@@ -1,0 +1,73 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+ }
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.fonts-inter {
+  font-family: inter, sans-serif;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+/**************************************
+                css Common classes  
+ **************************************/
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    
+}
+.btn{
+    width: 160px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    font: 16px;
+    font-weight:600;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+ /**************************************
+                Nav bar design 
+ **************************************/
+
+ .nav_bar{
+    width: 85%;
+    max-width:1360px;
+    margin: 0 auto ;
+    display: flex;
+    gap: 345px;
+    align-items: center;
+ }
+ .nav_bar .menu ul{
+    display: flex;
+    gap: 32px;
+
+ } 
+ .nav_bar .menu ul li a{
+    color: #000000;
+    font-size: 16px;
+    line-height: 158%;
+    font-weight: 500;
+
+ }
+  /**************************************
+                Nav bar design  end
+ **************************************/
