@@ -138,5 +138,63 @@ button{
     gap: 16px;
 
 }
+.card{
 
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.card_header h1{
+    padding-top: 32px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    
+}.card_header P{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    
+}
+.card_item{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
+.card_items{
+    height: 300px;
+    padding:24px ;
+    width: 322px;
+    box-shadow: 0 0 8px 0 #0000 6% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card_items .image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.card .card_items .image img{
+
+    margin: 14px 14px;
+    height: 32px;
+    width: 32px;
+    color: #FFFFFF;
+}
+.card_items h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color:#001931;
+}
+.card_items p {
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+}
