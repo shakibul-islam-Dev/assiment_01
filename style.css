@@ -23,8 +23,9 @@
  **************************************/
 header{
     background-color: #FFFFFF;
-    padding-top: 16px;
     margin: 0 auto;
+    padding: 16px;
+    height: 92px;
  
 }
 button{
@@ -73,6 +74,7 @@ button{
     display: flex;
     gap: 345px;
     align-items: center;
+
  }
  .nav_bar .menu ul{
     display: flex;
@@ -197,4 +199,29 @@ button{
     font-size: 16px;
     line-height: 20px;
     color:#627382;
+}
+
+.solution{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.solution .solution_containe{
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.solution .solution_containe .solution_img{
+    width: 600px;
+    height: 600px;
+}
+.solution .solution_containe .solution-info{
+    width: 700px;
+    height: 397px;
+    border: 1px solid black;
+}
+.solution .solution_containe .solution-info .solution-up p{
+    text-align: left;
+
 }
