@@ -207,10 +207,11 @@ button{
 }
 
 .card_items{
+    margin-top: 44px;
     height: 300px;
     padding:24px ;
     width: 322px;
-    box-shadow: 0 0 8px 0 #0000 6% ;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .06) ;
     display: flex;
     align-items: center;
     justify-content: center;
