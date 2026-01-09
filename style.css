@@ -32,7 +32,7 @@ button{
     cursor: pointer;
 }
 .btn{
-    padding: 12px 16px;
+    padding: 16px 12px;
     background-color: #30B868;
     color: #FFFFFF;
     font: 16px;
@@ -40,15 +40,31 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    
-    transition: all;
-
 }
-.btn:hover{
+
+.btn1:hover{
     background:transparent;
     color: white;
-    border: 2px solid #30B868;
+    border: 1px solid #ffffff;
     outline: none;
+    transition: ease 0.5s;
+    font-weight: 600;
+}
+.btn2:hover{
+    background:transparent;
+    color: #30B868;
+    border: 1px solid #30B868;
+    outline: none;
+    transition: ease 0.5s;
+    font-weight: 600;
+}
+.banner_section .banner_content .banner_button{
+    width: 465px;
+    height: 52px;
+
+}.banner_section .banner_content .banner_button button{
+    height: 45px;
+
 }
 .fa-regular{
     height: 16px;
@@ -102,12 +118,15 @@ button{
 
  } 
  .nav_bar .menu ul li a{
+     color: #000000;
     border: none;
-    color: #000000;
     font-size: 16px;
     line-height: 158%;
     font-weight: 500;
-
+ }
+.nav_bar .menu ul li:hover a{
+    color: #30B868;
+    transition: ease 0.3s;
  }
   /**************************************
                 Nav bar design  end
@@ -288,6 +307,7 @@ button{
  .ready_sec{
     width: 85%;
     max-width: 1360px;
+    height: 384px;
     margin: 0 auto;
     color: #F7F6F2;
     padding: 80px 0;
@@ -296,6 +316,9 @@ button{
     justify-content: center;
     flex-direction: column;
 
+ }
+ .ready_sec .ready{
+    height: 384px;
  }
  .ready_sec .ready h2{
     font-size: 40px;
@@ -330,6 +353,7 @@ footer .footer_content{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding:120px 120px 0px 120px ;
     gap: 60px;
@@ -338,13 +362,19 @@ footer .footer_content .footer_up{
     display: flex;
     align-items: center;
     gap: 780px; 
+    border-bottom: 1px solid #002c55;
+    padding-bottom: 30px;
 }
 footer .footer_content .footer_up .footer_logo{
+ 
     width: 350px;
     display: flex;
     align-items: center; 
 }
-footer .footer_content .footer_up .logo img{
+footer .footer_content .footer_up .footer_logo img{
+    height: 60PX;
+    width: 140PX;
+    cursor: pointer;
     width: 140px;
     height: 60px;
     margin: 0 auto;
@@ -378,18 +408,18 @@ footer .footer_content .footer_up .footer_social ul li{
     background-color: #ffffff;
 }
 footer .footer_content .footer_down{
-    margin: 0 auto;
-    width: 85%;
+    
+    text-align: center;
+    display: block;
+    width:100%;
     max-width: 1360px;
+
 
 }
 footer .footer_content .footer_down p{
-    padding-top: 30px;
+    padding-bottom: 30px;
     color: #FAFAFA;
     font-size: 16px;
     line-height: 24px;
     margin: 0 auto;
-    width: 85%;
-    max-width: 1360px;
-    
 }
